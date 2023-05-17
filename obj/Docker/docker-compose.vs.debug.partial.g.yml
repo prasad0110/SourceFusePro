@@ -3,7 +3,7 @@ version: '3.4'
 services:
   customerapi6:
     image: customerapi6:dev
-    container_name: CustomerAPi6
+    container_name: CustomerAPi6_1
     build:
       target: base
       labels:
