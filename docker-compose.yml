@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  customerapi6:
+    image: ${DOCKER_REGISTRY-}customerapi6
+    build:
+      context: .
+      dockerfile: CustomerAPi6/Dockerfile
