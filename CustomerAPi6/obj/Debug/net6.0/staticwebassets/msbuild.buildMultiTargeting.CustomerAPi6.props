@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CustomerAPi6.props" />
+</Project>
